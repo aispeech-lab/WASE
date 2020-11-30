@@ -35,11 +35,24 @@ sed -i 's/home\/aa/YOUR PATH/g' data/wsj/mix_2_spk_voiceP_tt_WSJ.txt
 <!-- - Listen to audio sample at webpage: http://swpark.me/voicefilter/ -->
 - Listen to audio samples at [*./assets/demo*](./assets/demo).
 - Spectrogram samples (clean/mixture/prediction).
+
 <div  align="center">    
 <img src="./assets/demo/fm_mf/0_None1_clean.png" width = 500 height = 300 />
 <img src="./assets/demo/fm_mf/0_None1_noisy.png" width = 500 height = 300 />
 <img src="./assets/demo/fm_mf/0_None1_pre.png" width = 500 height = 300 />
 </div>
+
+- Onset / Offset Visualization.
+
+<div  align="center">    
+<img src="./assets/onset_offset_demo.png" width = 960 height = 480 />
+</div>
+
+This figure contains a lot of information about onset/offset cues.
+1. The first modulation is almost straight. We attribute this strange phenomenon to its location near the input, where there is very little processing to mixture speech. This also reminds us that the first modulation position may be too early for onset/offset detection.
+2. Except for the first modulation, the other modulation phenomena are in line with expectations. In particular, the last modulation is relatively stable with fewer spikes.
+3. The last modulation has slight spikes between the start and the offset. We find that these spikes are consistent with the overlap of clean speech and inference speech. The detector seems to have lower confidence in these places than in other places where there is only clean speech or no clean speech at all.
+
 
 ### Metric
 
