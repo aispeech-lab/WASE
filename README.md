@@ -37,9 +37,11 @@ sed -i 's/home\/aa/YOUR PATH/g' data/wsj/mix_2_spk_voiceP_tt_WSJ.txt
 - Spectrogram samples (clean/mixture/prediction).
 
 <div  align="center">    
-<img src="./assets/demo/fm_mf/0_None1_clean.png" width = 500 height = 300 />
-<img src="./assets/demo/fm_mf/0_None1_noisy.png" width = 500 height = 300 />
-<img src="./assets/demo/fm_mf/0_None1_pre.png" width = 500 height = 300 />
+<img src="./assets/demo/fm_mf/0_None1_clean.png" width = 400 height = 150 />
+<br>
+<img src="./assets/demo/fm_mf/0_None1_noisy.png" width = 400 height = 150 />
+<br>
+<img src="./assets/demo/fm_mf/0_None1_pre.png" width = 400 height = 150 />
 </div>
 
 - Onset / Offset Visualization.
