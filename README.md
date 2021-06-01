@@ -72,18 +72,21 @@ This figure contains a lot of information about onset/offset cues.
 If you find this repo helpful, please consider citing:
 
 ```
-@article{hao2020wase,
-  title={Wase: Learning When to Attend for Speaker Extraction
-in Cocktail Party Environments},
-  author={Hao, Yunzhe and Xu, Jiaming and Zhang, Peng and Xu, Bo}
+@inproceedings{hao2021wase,
+  title={Wase: Learning When to Attend for Speaker Extraction in Cocktail Party Environments},
+  author={Hao, Yunzhe and Xu, Jiaming and Zhang, Peng and Xu, Bo},
+  booktitle={ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={6104--6108},
+  year={2021},
+  organization={IEEE}
 }
 ```
 
 ```
-@article{hao2020unified,
+@inproceedings{hao2020unified,
   title={A Unified Framework for Low-Latency Speaker Extraction in Cocktail Party Environments},
   author={Hao, Yunzhe and Xu, Jiaming and Shi, Jing and Zhang, Peng and Qin, Lei and Xu, Bo},
-  journal={Proc. Interspeech 2020},
+  booktitle={Proc. Interspeech 2020},
   pages={1431--1435},
   year={2020}
 }
