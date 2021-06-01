@@ -91,3 +91,5 @@ If you find this repo helpful, please consider citing:
   year={2020}
 }
 ```
+For more detailed descirption, you can further explore the whole paper with [this link](https://doi.org/10.1109/ICASSP39728.2021.9413411).  
+
