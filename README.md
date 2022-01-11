@@ -4,7 +4,7 @@
 
 Demo samples of our paper *Wase: Learning When to Attend for Speaker Extraction in Cocktail Party Environments*. WASE first explicitly models **start/end time of speech** (**onset/offset cues**) in speaker extraction problem.
 
-We will release code soon. If you have any question about implementation details, feel free to ask me (haoyunzhe2017@ia.ac.cn).
+~~We will release code soon.~~ The source code is available in [WASE_202112](https://github.com/aispeech-lab/WASE_202112). If you have any question about implementation details, feel free to ask me (haoyunzhe2017@ia.ac.cn).
 
 ![](./assets/framework.png)
 
